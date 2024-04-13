@@ -1,0 +1,74 @@
+.pantalones{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    color: map-get($colores , colorSecundario );
+    background-color: map-get($colores , fondoPrincipal );
+}
+.remeras{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    background-color: map-get($colores , colorcincuentaoff );
+}
+
+.gallery__container{
+    width: 90%;
+    max-width: 1100px;
+    margin: 40px auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+    gap: 40px;
+    img{
+        height: 100%;
+        border-radius: 20px;
+    }
+}
+.galeria{
+    img{
+        width: 30%;
+        height: 30%;
+        margin-left: 2%;
+        padding: 10px;
+        padding-top: 9px;
+    }
+}
+.img4{
+    grid-area: img5;
+    border-radius: 20px;
+    box-shadow: 20px;
+}
+
+.img5{
+    grid-area: img5;
+    border-radius: 20px;
+    box-shadow: 20px;
+}
+
+.img6{
+    grid-area: img6;
+    border-radius: 20px;
+    box-shadow: 20px;
+}
+
+.container{
+    background-color: map-get($colores , fondoPrincipal );
+    width: 80%;
+    margin: 0px auto;
+    margin-top: 100px;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid map-get($colores , colorlogin );
+    color: map-get($colores , colorSecundario );
+    border-radius: 8px;
+    box-shadow: 0px 0px 8px map-get($colores , colorlogin );
+    opacity: 90%;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+}
+button{
+    border-radius: 5px;
+}

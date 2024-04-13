@@ -1,0 +1,21 @@
+@media (max-width:1024px) {
+    .header-index {
+        justify-content: space-around;
+    }
+}
+
+@media (max-width: 720px) {
+    .header-index {
+        justify-content: space-around;
+    }
+}
+
+@media (max-width: 480px) {
+    .header-index {
+        justify-content: space-around;
+    }
+    .login-container {
+        width: 80px;
+    }
+}
+
