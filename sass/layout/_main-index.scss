@@ -12,6 +12,45 @@
     background-color: map-get($colores , colorcincuentaoff );
 }
 
+.logincont{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    color: map-get($colores , colorSecundario );
+    background-color: map-get($colores , fondoPrincipal );
+}
+
+.remh3{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    color: map-get($colores , colorSecundario );
+    box-shadow: 10px;
+}
+
+.pantsh3{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    color: map-get($colores , colorSecundario );
+    box-shadow: 10px;
+}
+
+.galerh1{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    color: map-get($colores , colorSecundario );
+    background-color: map-get($colores , fondoPrincipal );
+}
+
+.copyh3{
+    display: flex;
+    justify-content: center;
+    font-size: 10px;
+    color: map-get($colores , colorSecundario );
+}
+
 .gallery__container{
     width: 90%;
     max-width: 1100px;
@@ -54,7 +93,7 @@
 .container{
     background-color: map-get($colores , fondoPrincipal );
     width: 80%;
-    margin: 0px auto;
+    margin: 10px auto;
     margin-top: 100px;
     padding: 20px;
     text-align: center;
@@ -68,7 +107,10 @@
 .formulario{
     display: flex;
     flex-direction: column;
+    border-radius: 5px;
 }
 button{
     border-radius: 5px;
+    color: map-get($colores , colorLetraEfect );
 }
+

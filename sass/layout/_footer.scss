@@ -13,3 +13,10 @@ footer{
     height: 50px;
     width: 50px;
 }
+
+.footerlogin{
+    padding: 10px;
+    justify-content: space-between;
+    background-color: map-get($colores , fondoPrincipal );
+    
+}

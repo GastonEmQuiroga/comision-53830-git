@@ -8,42 +8,12 @@ body {
   font-family: "NTR", sans-serif;
   font-weight: 400;
   font-style: normal;
-  background-image: url("../img/fondo.jpg");
+  overflow-x: hidden;
+  background-image: url("../img/fondo3.jpg");
 }
 
-header {
-  padding: 0%;
-  display: flex;
-  flex-direction: row;
-  background-color: #3F394d;
+nav {
   opacity: 90%;
-  justify-content: space-between;
-  position: sticky;
-  z-index: 1000;
-  top: 0;
-}
-header .logo img {
-  width: 50px;
-  height: 50px;
-}
-header nav {
-  width: 90%;
-  display: flex;
-  justify-content: center;
-}
-header nav .navBar {
-  display: flex;
-  list-style: none;
-  gap: 20px;
-  padding-right: 1.25rem;
-}
-header nav .navBar li a {
-  text-decoration: none;
-  color: azure;
-  font-size: 15px;
-}
-header nav .navBar li a:hover {
-  color: black;
 }
 
 .pantalones {
@@ -59,6 +29,45 @@ header nav .navBar li a:hover {
   justify-content: center;
   margin: auto;
   background-color: #912121;
+}
+
+.logincont {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  color: azure;
+  background-color: #3F394d;
+}
+
+.remh3 {
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+  color: azure;
+  box-shadow: 10px;
+}
+
+.pantsh3 {
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+  color: azure;
+  box-shadow: 10px;
+}
+
+.galerh1 {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  color: azure;
+  background-color: #3F394d;
+}
+
+.copyh3 {
+  display: flex;
+  justify-content: center;
+  font-size: 10px;
+  color: azure;
 }
 
 .gallery__container {
@@ -103,7 +112,7 @@ header nav .navBar li a:hover {
 .container {
   background-color: #3F394d;
   width: 80%;
-  margin: 0px auto;
+  margin: 10px auto;
   margin-top: 100px;
   padding: 20px;
   text-align: center;
@@ -117,10 +126,12 @@ header nav .navBar li a:hover {
 .formulario {
   display: flex;
   flex-direction: column;
+  border-radius: 5px;
 }
 
 button {
   border-radius: 5px;
+  color: black;
 }
 
 footer {
@@ -138,6 +149,12 @@ footer {
   width: 50px;
 }
 
+.footerlogin {
+  padding: 10px;
+  justify-content: space-between;
+  background-color: #3F394d;
+}
+
 @media (max-width: 1024px) {
   .header-index {
     justify-content: space-around;
@@ -148,7 +165,7 @@ footer {
     justify-content: space-around;
   }
 }
-@media (max-width: 480px) {
+@media (max-width: 400px) {
   .header-index {
     justify-content: space-around;
   }
@@ -157,7 +174,7 @@ footer {
   }
 }
 .slide {
-  padding: 8px;
+  padding: 30px;
   margin-top: top 20px;
   margin-left: 20px;
   margin-right: 20px;
